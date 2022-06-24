@@ -1,3 +1,90 @@
 body{
     font-family: "PT serif",Georgia, 'Times New Roman', Times, serif;
+    font-size: 18px;
+    line-height: 1.75rem;
+}
+
+h1{font-size: 1.5rem;}
+
+h1,h2,h3{
+    font-family: sans-serif;
+}
+
+a{
+    text-decoration: underline;
+    color: #706C61;
+    -o-transition: 0.75s;
+    -ms-transform: 0.75s;
+    -moz-transition: 0.75s;
+    -webkit-transition: 0.75s;
+    transition: 0.75s;
+}
+
+a:hover{
+    color: #000;
+}
+
+/* container */
+
+.container{
+    margin-left: auto;
+    margin-right:auto;
+    width: 700px;
+}
+
+/* master header */
+.master-header{
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+    margin-bottom: 4rem;
+    font-family: sans-serif;
+
+}
+
+.master-header a:hover{
+    color: #333333;
+}
+
+.master-header-title a{
+    font-size: 2rem;
+    text-decoration: none;
+    color: #333;
+}
+.master-header-subtitle{
+    color: #706C61;
+}
+
+.post-container{
+    margin-bottom: 4rem;
+}
+
+.footer a{
+    color: #999;
+    padding: 10px;
+    text-decoration: none;
+}
+
+.footer a:hover{
+    color: #333;
+}
+
+.menu{
+    padding-top: 0.5rem;
+    display: block;
+}
+
+.menu-content{
+    float: left;
+}
+
+.menu-content a{
+    color: #706C61;
+    font-size: 1rem;
+}
+.social-icons a{
+    color: #706C61;
+    font-size: 1rem;
+}
+.social-icons{
+    float:right;
 }
