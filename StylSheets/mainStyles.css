@@ -28,8 +28,8 @@ a:hover{
 
 .container{
     margin-left: auto;
-    margin-right:auto;
-    width: 700px;
+    margin-right: auto;
+    width: 550px;
 }
 
 /* master header */
@@ -85,6 +85,11 @@ a:hover{
     color: #706C61;
     font-size: 1rem;
 }
+.icon{
+    width: 30px;
+    height: 30px;
+}
+
 .social-icons{
     float:right;
 }
