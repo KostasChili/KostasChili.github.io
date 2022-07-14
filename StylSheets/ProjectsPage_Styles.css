@@ -12,7 +12,7 @@
     flex: 1;
     flex-direction: column;
     position: relative;
-    /* align timers cross-axis*/
+    /* align  cross-axis*/
     
 }
 
@@ -28,6 +28,10 @@
 }
 #AVR{
     background-color: rgb(190, 35, 35);
+}
+
+#WebDev{
+    background-color: #36ce57;
 }
 
 .card-content{
