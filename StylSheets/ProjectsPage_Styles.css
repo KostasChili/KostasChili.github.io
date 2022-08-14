@@ -24,14 +24,15 @@
 }
 
 #Arduino{
-    background-color: #00878F;
+    background-color: #00979C;
 }
 #AVR{
     background-color: rgb(190, 35, 35);
 }
 
 #WebDev{
-    background-color: #36ce57;
+    background-color: #F0DB4F;
+    color:#323330 ;
 }
 
 .card-content{
