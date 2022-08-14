@@ -58,3 +58,12 @@
 div {
     display: block;
 }
+
+.project-image-container{
+    display:  flex;
+}
+.project-image{
+    padding: 0.5rem;
+    max-width: 50%;
+    max-height: 50%;
+}
