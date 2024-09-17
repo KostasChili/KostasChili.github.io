@@ -1,67 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="StylSheets/mainStyles.css">
-    <title>Kostas Chili</title>
+    <link rel="stylesheet" href="./Styles/mainFormStyles.css"></link>
+    <title>Document</title>
 </head>
-
 <body>
     <div class="container">
-        <header class="master-header">
-            <h3 class="master-header-title"><a href="index.html">Konstantinos Tsililis</a><small
-                    class="master-header-subtitle"> Soon to Graduate student located in Thessaloniki,Greece </small>
-                <div class="menu">
-                    <nav class="menu-content">
-                        <a href="index.html">Home</a>
-                        <a href="pages/ProjectsPage.html">Projects</a>
-                        <a href="pages/CoursesPage.html">Courses</a>
-                        <a href="make link to bio">Bio</a>
-                    </nav>
-                    <nav class="social-icons">
-                        <a href="https://github.com/KostasChili"><img src="icons/Github-Icon.png" class="icon"></a>
-                        <a href="https://www.linkedin.com/in/konstantinos-tsililis-0571a2212/"><img src="icons/linkedinIcon.png"class="icon"></a>
-                        <a href="mailto:kotsililis@gmail.com"><img src="icons/mailIcon.png"class="icon"></a>
-                    </nav>
-                </div>
-            </h3>
-        </header>
-        <div class="post-container">
-            <h1>Home</h1>
-            <p>Hello, I am Kostas an Automations Engineer soon to graduate from the <a href="http://www.iem.ihu.gr/">Automations Engineering
-                Departmen</a> at the Alexander Technological Institute of Thessaloniki (currently known as International
-                Hellenic University).
-            </p>
-            <p>Throughout my studies in ATEI I discovered my true passion is software development and I have dedicated the last few years on developing the 
-                necessary skills to do so. This includes many courses through platfroms such as Udemy and my thesis.
-            </p>
-            <p>My thesis is about developing a web application that would enable businesses and clients to manage appointments online</p>
-            <p>I am using the following programming languages :</p>
-            <ul>
-                <li>C#</li>
-                <li>JavaScript</li>
-                <li>Java</li>
-                <li>C++</li>
-            </ul>
-            <p>I am also using the following software and frameworks :</p>
-            <ul>
-                <li>VsCode</li>
-                <li>Visual Studio</li>
-                <li>IntelliJ</li>
-                <li>Express</li>
-            </ul>
+        <div class="header_container">
+            <div class="header_title">Konstantinos Tsililis</div>
         </div>
-        <footer class="footer">
-            <a href="https://github.com/KostasChili"><img src="icons/Github-Icon.png" class="icon"></a>
-            <a href="https://www.linkedin.com/in/konstantinos-tsililis-0571a2212/"><img src="icons/linkedinIcon.png"class="icon"></a>
-            <a href="mailto:kotsililis@gmail.com"><img src="icons/mailIcon.png"class="icon"></a>
-        </footer>
+        <hr>
+        <div class="main_content_container">
+            <div class="main_content--right">
+                <div class="contact_info_container">
+                    <div class="contact_info">
+                        <div class="contact_icon"> <img class="info_icon" src="./icons/phone-call.png" alt="an icon of a phone"> </div>
+                        <div class="contact_value"> <input type="tel" value="+30 6988012435"></div>
+                    </div>
+                    <div class="contact_info">
+                        <div class="contact_icon"> <img class="info_icon" src="./icons/delete-message.png" alt="an icon of an email"> </div>
+                        <div class="contact_value"> <input type="email" value="kotsililis@gmail.com"></div>
+                    </div>
+                    <div class="contact_info">
+                        <div class="contact_icon"> <img class="info_icon" src="./icons/location.png" alt="an icon of a location"> </div>
+                        <div class="contact_value"> 
+                            <address>
+                                <p>Thessaloniki, Greece</p>
+                            </address>
+                        </div>
+                    </div>
+                    <div class="contact_info">
+                        <div class="contact_icon"> <img class="info_icon" src="./icons/linkedinIcon.png" alt="an icon for linkedin"> </div>
+                        <div class="contact_value"> <a href="https://www.linkedin.com/in/konstantinos-tsililis-0571a2212/"></a>LinkedIn - Tsililis</div>
+                    </div>
+                </div>
+                <hr>
+                <div class="education_info_container">
+                    <div class="education_info education_info_university">
+                        <div class="university_info">
+                            <h2>Automations Engineer</h2>
+                            <h3>IHU - Thessaloniki</h3>
+                            <p class="university_date">2013-2023</p>
+                            <p class="university_description">Analog and Digital Electronics, Mechanical and Electrical Engineering, 
+                                                                Automation Control Theory, Programming
+                            </p>
+                            <p class="university_grade">Grade: 7,31 (out of 10)</p>
+                        </div>
+                        <div class="highschool_info">
+                            <h2>General Highschool Graduate</h2>
+                            <h3>Neapoli - Thessaloniki</h3>
+                            <p class="university_date">2011-2013</p>
+                            <p class="university_grade">Grade: 17,4 (out of 20)</p>
+                        </div>
+                    </div>
+                </div>
+                <hr>
+                <div class="languages_info_container">
+                    <div class="language_info">
+                        <h2>Languages</h2>
+                        <p>Greek - Native Language</p>
+                        <p>English - Very Good</p>
+                    </div>
+                </div>
+                <hr>
+                <div class="skills_info_container">
+                    <div class="programming_languages_info">
+                        <h2>Programming Languages</h2>
+                        <ul class="skills_list">
+                            <li class="skills_list_item">Javascript, Css, HTML</li>
+                            <li class="skills_list_item">C#</li>
+                            <li class="skills_list_item">C++</li>
+                            <li class="skills_list_item">Apex</li>
+                        </ul>
+                    </div>
+                    <div class="frameworks_info">
+                        <h2>Frameworks</h2>
+                        <ul class="skills_list">
+                            <li class="skills_list_item">React.js</li>
+                            <li class="skills_list_item">.Net</li>
+                        </ul>
+                    </div>
+                    <div class="platforms_info">
+                        <h2>Platforms</h2>
+                        <ul class="skills_list">
+                            <li class="skills_list_item">Salesforce</li>
+                            <li class="skills_list_item">MS Dynamics</li>
+                        </ul>
+                    </div>
+                    <div class="stacks_info">
+                        <h2>Stacks</h2>
+                        <ul class="skills_list">
+                            <li class="skills_list_item">M.E.R.N</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            <div class="main_content--left">
+                <div class="main_content_container">
+                    <div class="about_me_container">
+                        <div class="about_me_header">
+                            <h2>About Me</h2>
+                        </div>
+                        <div class="about_me_content">
+                            <p>
+                            I am Konstantinos, a 28-year-old developer from Greece with a degree in Automation Engineering 
+                            and a passion for programming. During university, I developed a MERN stack application for my thesis, 
+                            gaining hands-on experience in both front-end and back-end web development. This project sparked my interest in software development.
+                            </p>
+                            <p>
+                                Since graduating, I’ve worked with Apex, JavaScript, HTML, and CSS to build custom solutions on the Salesforce platform, 
+                                collaborating with teams to deliver impactful results. While I’ve enjoyed working with platforms like Salesforce and MS Dynamics,
+                                I find them limiting and am eager to focus on engineering more flexible, custom solutions.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
-    <!--container-->
-
 </body>
-
 </html>
