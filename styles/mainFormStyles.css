@@ -21,7 +21,7 @@
 
 
 .main_header {
-    background-color: #3c3c3c;
+    background-color: #525252;
     color: white;
     display: flex;
     justify-content: space-between; /* This ensures the nav_buttons and util_buttons are spaced out */
@@ -51,8 +51,11 @@
     text-decoration: none;
 }
 
+.contact_info a{
+    text-decoration: none;
+}
 .main_footer{
-    background-color: 	#3c3c3c;
+    background-color: 	#525252;
     color: white;
     text-align: right;
     width: 100%;
@@ -85,7 +88,7 @@ button{
 }
 
 .main_content--right{
-    background-color: #E5E4E2;
+    background-color: 	#c1c1c1 ;
 }
 
 .main_content--left, .main_content--right{
@@ -123,7 +126,7 @@ button{
 }
 
 input{
-    background-color:#E5E4E2 ; 
+    background-color:#c1c1c1 ; 
 }
 
 h2{
@@ -138,7 +141,7 @@ h4{
 }
 
 p{
-    font-size: 15px;
+    font-size: 18px;
 }
 
 
