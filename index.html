@@ -15,15 +15,15 @@
             <section class="main_content--right">
                 <article class="contact_info_article">
                     <div class="contact_info">
-                        <div class="contact_icon"> <img class="info_icon" src="./icons/phone-call.png" alt="an icon of a phone"> </div>
-                        <div class="contact_value"> <input readonly type="tel" value="+30 6988012435"></div>
+                        <label class="contact_icon" for="tel"> <img class="info_icon" src="./icons/phone-call.png" alt="an icon of a phone"> </label>
+                        <div class="contact_value"><input name="tel" readonly type="tel" value="+30 6988012435"></div>
                     </div>
                     <div class="contact_info">
-                        <div class="contact_icon"> <img class="info_icon" src="./icons/delete-message.png" alt="an icon of an email"> </div>
-                        <div class="contact_value"> <input readonly type="email" value="kotsililis@gmail.com"></div>
+                        <label class="contact_icon" for="mail"> <img class="info_icon" src="./icons/delete-message.png" alt="an icon of an email"> </label>
+                        <div class="contact_value"><input name="mail" readonly type="email" value="kotsililis@gmail.com"></div>
                     </div>
                     <div class="contact_info">
-                        <div class="contact_icon"> <img class="info_icon" src="./icons/location.png" alt="an icon of a location"> </div>
+                        <div class="contact_icon"><img class="info_icon" src="./icons/location.png" alt="an icon of a location"> </div>
                         <div class="contact_value"> 
                             <address>
                                 <p>Thessaloniki, Greece</p>
@@ -32,7 +32,11 @@
                     </div>
                     <div class="contact_info">
                         <div class="contact_icon"> <img class="info_icon" src="./icons/linkedinIcon.png" alt="an icon for linkedin"> </div>
-                        <div class="contact_value"> <a href="https://www.linkedin.com/in/konstantinos-tsililis-0571a2212/"></a>LinkedIn - Tsililis</div>
+                        <div class="contact_value"> <a href="https://www.linkedin.com/in/konstantinos-tsililis-0571a2212/">LinkedIn - Tsililis</a></div>
+                    </div>
+                    <div class="contact_info">
+                        <div class="contact_icon"> <img class="info_icon" src="./icons/github.png" alt="an icon for linkedin"> </div>
+                        <div class="contact_value"> <a href="https://github.com/KostasChili/">Github - Tsililis</a></div>
                     </div>
                 </article>
                 <hr>
@@ -97,11 +101,8 @@
                 </article>
             </section>
             <section class="main_content--left">
-                <div class="main_content_container">
                     <div class="info_block">
-                        <div class="info_block_header">
-                            <h2>About Me</h2>
-                        </div>
+                            <h2 class="info_block_header">About Me</h2>
                         <article class="info_block_article">
                             <p>
                             I am Konstantinos, a 28-year-old developer from Greece with a degree in Automation Engineering 
@@ -115,7 +116,60 @@
                             </p>
                         </article>
                     </div>
-                </div>
+                    <div class="info_block">
+                       <h2 class="info_block_header">Work Experience</h2>
+                       <div class="info_block">
+                        <h3>Junior Developer</h3>
+                        <h4>Deloitte Digital - DACC</h4>
+                     <article>
+                        <p>
+                            During my time at Deloitte Digital, I received training on the Salesforce 
+                            and MS Dynamics platforms, earning three foundational certifications in the 
+                            latter. I also contributed to an internal project as part of a team, 
+                            where I used JavaScript, HTML, CSS, and Apex to refactor and develop custom 
+                            solutions, focusing on Lightning Web Components.
+                        </p>
+                     </article>
+                       </div>
+                       <div class="info_block">
+                        <h3>Technical Customer Support</h3>
+                        <h4>Battlenet Gaming Stations / Eposrts Venues</h4>
+                        <h4>Gnet</h4>
+                        <ul class="info_list">
+                            <li class="info_list_item">Customer Support</li>
+                            <li class="info_list_item">Computer Service</li>
+                            <li class="info_list_item">Cashier / Barista</li>
+                        </ul>
+                       </div>
+                       <div class="info_block">
+                        <h3>Computer Technician</h3>
+                        <h4>Game Over Pc Medic</h4>
+                        <ul class="info_list">
+                            <li class="info_list_item">Computer Service</li>
+                            <li class="info_list_item">Customer Service</li>
+                            <li class="info_list_item">Sales</li>
+                        </ul>
+                       </div>
+                    </div>
+                    <div class="info_block">
+                        <h2>Certifications</h2>
+                        <p>I am currently holding the following certificates:</p>
+                        <ol class="info_list">
+                            <li class="info_list_item"><a href="https://learn.microsoft.com/api/credentials/share/en-gb/KonstantinosTsililis-7274/EAD6B63AAAF40AAE?sharingId=C6CE6FD9F1D5A0B5">MS Certified: Power Platform Functional Consultant Associate</a></li>
+                            <li class="info_list_item"><a href="https://learn.microsoft.com/api/credentials/share/en-gb/KonstantinosTsililis-7274/9A248DFCDCF235FB?sharingId=C6CE6FD9F1D5A0B5">Microsoft Certified: Power Platform Fundamentals
+                            </a></li>
+                            <li class="info_list_item"><a href="https://learn.microsoft.com/api/credentials/share/en-gb/KonstantinosTsililis-7274/A29B3F18BF920B2C?sharingId=C6CE6FD9F1D5A0B5">Microsoft Certified: Dynamics 365 Fundamentals (CRM)</a></li>
+                        </ol>
+                    </div>
+                    <div class="info_block">
+                        <h2>Other Skills and Hobbies</h2>
+                        <ul class="info_list">
+                            <li class="info_list_item">Self taught musician - Drums, Guitar, Bass Guitar </li>
+                            <li class="info_list_item">Gaming - Dota, Counter Strike and other titles</li>
+                            <li class="info_list_item">Aviation enthusiast  - Playing with many sims</li>
+                            <li class="info_list_item">Arduino enthusiast - Building circuits and programming microcontrollers</li>
+                        </ul>
+                       </div>
             </section>
         </div>
     </div>

@@ -29,7 +29,7 @@
     background-color: #b9b9b9ee;
 }
 
-.main_content--left,.main_content--right{
+.main_content--left, .main_content--right{
     height: fit-content;
     margin: 2px;
     padding: 2%;
@@ -52,11 +52,20 @@ input{
 }
 
 h2{
-    font-size:  1em;
+    font-size:x-large;
 }
+h3{
+    font-size: large;
+}
+h4{
+    font-size:medium;
+    font-weight: normal;
+}
+
 p{
-    font-size: medium;
+    font-size: 15px;
 }
+
 
 
 
