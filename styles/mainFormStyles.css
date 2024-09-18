@@ -23,16 +23,42 @@
 .main_header {
     background-color: #D3D3D3;
     display: flex;
-    flex-direction: row; 
-    justify-content: left; 
+    justify-content: space-between; /* This ensures the nav_buttons and util_buttons are spaced out */
+    align-items: center; /* Vertically center the buttons */
     width: 100%;
     position: fixed;
     top: 0;
-    z-index: 1000; 
+    z-index: 1000;
     padding: 10px 0;
 }
 
-.header_button_container{
+.nav_buttons {
+    display: flex;
+    justify-content: flex-start; /* Align navigation buttons to the left */
+    margin-left: 20px; /* Add some margin to the left for spacing */
+}
+
+.util_buttons {
+    display: flex;
+    justify-content: flex-end; /* Align utility button to the right */
+    margin-right: 20px; /* Add some margin to the right for spacing */
+}
+
+.header_buttons button {
+    margin: 0 10px; /* Space between buttons */
+}
+
+.main_footer{
+    background-color: #D3D3D3;
+    text-align: right;
+    width: 100%;
+    position: fixed;
+    bottom:0;
+    z-index: 1000;
+    padding: 10px 0;
+}
+
+.header_buttons{
     padding: 4px;
     margin: 2px;
 }
