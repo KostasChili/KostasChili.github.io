@@ -13,16 +13,26 @@
 
 .main_content--right {
     width: 40%;
-    height: fit-content;
+   
     
 }
 .main_content--left{
     width: 60%;
-    height: fit-content;
+    
+}
+
+.main_content--left h2{
+    text-align: center;
 }
 
 .main_content--right{
     background-color: #b9b9b9ee;
+}
+
+.main_content--left,.main_content--right{
+    height: fit-content;
+    margin: 2px;
+    padding: 2%;
 }
 
 .info_icon {
@@ -54,4 +64,9 @@ p{
     border-radius: 30px;
     border-color: white;
     margin:4px;
+}
+
+.contact_value input {
+    border: none;
+  
 }
