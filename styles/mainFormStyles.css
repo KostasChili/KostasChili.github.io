@@ -36,6 +36,15 @@ section{
     margin-bottom: 100px;
 }
 
+a{
+    text-decoration: none;
+    color: black;
+}
+
+a:hover{
+    color: red;
+}
+
 
 .container{
     display: flex;
@@ -90,10 +99,6 @@ section{
     text-decoration: none;
 }
 
-a{
-    text-decoration: none;
-    color: black;
-}
 .main_footer{
     background-color: 	#525252;
     color: white;
@@ -137,8 +142,8 @@ a{
 
 .main_content--center{
     height: fit-content;
-    margin-left: 80px;
-    margin-right: 80px;
+    margin-left: 5%;
+    margin-right: 5%;
     padding: 2%;
 }
 
@@ -165,8 +170,6 @@ a{
 
 
 
-
-
 .info_icon{
     border-radius: 30px;
     border-color: white;
@@ -181,7 +184,3 @@ a{
 }
 
 
-
-a:hover{
-    color: red;
-}
