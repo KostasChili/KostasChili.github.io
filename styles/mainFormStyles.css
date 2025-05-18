@@ -55,7 +55,8 @@ a:hover {
 }
 
 .block-form {
-  width: 100vh;
+  width: 100%;
+  max-width: 900px;
   margin-top: 50px;
 }
 
@@ -88,6 +89,7 @@ a:hover {
   gap: 10px;
   padding: 0 20px;
 }
+
 
 .btn-group-header a {
   color: white;
@@ -166,4 +168,43 @@ a:hover {
 
 .info-section__content {
   padding-left: 10px;
+}
+
+
+@media print {
+  .block-form {
+    width: 100% !important;
+    max-width: none !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .layout-main {
+    flex-direction: column !important;
+  }
+
+  .section-main-left,
+  .section-main-right {
+    width: 100% !important;
+    margin: 0 !important;
+    padding: 0 !important;
+  }
+
+  .section-header,
+  .section-footer {
+    position: static !important;
+  }
+  .section-header {
+    display: none;
+  }
+}
+
+@media (max-width: 590px) {
+  .layout-main {
+    flex-direction: column;
+    align-items: center;
+  }
+  .section-main-right, .section-main-left{
+    width: 100%;
+  }
 }
